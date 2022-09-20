@@ -1,0 +1,75 @@
+<div>
+    <div class="killer">
+        <div class="navRes">
+            <h1>DEVITO</h1>
+            <input type="search" placeholder="&nbsp; &nbsp;Search for a Restaurant, Cusine or Dish">
+           <button routerLink="../cart" class="btn button-custom shadow:none">
+            <i style="font-size:45px"  id="cart" class='fa fa-shopping-cart'></i>
+            <div style="font-size: 10px;" class="badge custom-design">{{cntr}}</div>
+           </button> 
+        </div>
+    </div>
+</div>
+<!-- <app-res-detail></app-res-detail> -->
+
+
+<!-- <div>
+    <div >
+        <h2>{{names[0].name}}</h2>
+        <p>{{names[0].description}}</p>
+    </div>
+</div> -->
+
+<br>
+<br>
+<h2 class="or">Order Online</h2>
+&nbsp;
+<div>
+    <div class="rec" *ngFor="let x of meals1">
+        <img src={{x.image}} alt="">
+        <div class="fdd">
+            <h4>{{x.name}}</h4>
+            <div class="rev">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> &nbsp;
+             <span >101 reviews</span>
+             <p>{{x.price| currency}}</p>
+             <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-secondary" (click)="decr(x.id)">-</button>
+                <button type="button" class="btn btn-secondary"> {{x.cnt}}</button>
+                <button type="button" class="btn btn-secondary" (click)="count(x.id)">+</button>
+              </div>
+              
+            
+        </div>
+          
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div>
+    <div class="rec">
+        <img src="http://www.dineout.co.in/blog/wp-content/uploads/2018/02/shutterstock_369523526-700x482.jpg" alt="">
+        <div class="fdd">
+            <h4>Salmon Prawn Risotto</h4>
+            <div class="rev">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> &nbsp;
+             <span >101 reviews</span>
+             <p>$20</p>
+            
+        </div>
+          
+
+        </div>
+    </div>
+</div> -->

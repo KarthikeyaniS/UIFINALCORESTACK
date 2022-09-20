@@ -1,0 +1,20 @@
+
+<div>
+    <div *ngFor="let k of restaurants">
+        <div>
+            <img src={{k.image}} alt="">
+            <h2>{{k.restaurantName}}</h2>
+            <p>{{k.description}}</p>
+            <p>{{k.restaurantFullAddress}}</p>
+            <p><b>{{k.restaurantPhone}}</b></p>
+            <div class="btn1">
+
+                <button>Add Review</button>
+                <button> Direction</button>
+                <button> share</button>
+            </div>
+            <hr>
+        </div>
+         
+    </div>
+</div>

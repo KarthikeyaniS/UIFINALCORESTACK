@@ -1,0 +1,14 @@
+img{
+    width: 500px;
+    height: 250px
+}
+.btn1{
+    display: flex;
+    margin-left: 20px;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+button{
+    background-color: rgb(227, 158, 158);
+    border:none;
+}

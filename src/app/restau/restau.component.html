@@ -1,0 +1,20 @@
+<div class="restau">
+<div class="st1">
+    <br>
+    <h3>Order food Online from <b>Devito</b> </h3>
+</div>
+<a  *ngFor="let j of resArr"  routerLink="../menu">
+    <div class="res1">
+        <div class="c2">
+            <div>
+                <img src={{j.Image}} alt="">
+            </div>
+            <div>
+                <h4>{{j.htlName}}</h4>
+                <p>{{j.desc}}</p>
+            </div>
+        </div>
+    </div>
+</a>
+
+</div>

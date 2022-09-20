@@ -1,0 +1,77 @@
+.navRes{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.navRes input{
+    height: 40px;
+  width: 50%;
+  margin-left: 10%;
+  border-radius: 6px;
+  border-width: 1px;
+  
+}
+
+.rec img{
+    width: 240px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 19%;
+    object-fit: cover;
+
+}
+.checked{
+    color:orange;
+}
+.fdd{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.rec{
+    display: flex;
+    gap:30px;
+    margin-bottom: 30px;
+}
+#cart
+{
+    margin-left:250px;
+    
+}
+a{
+    list-style: none;
+}
+.cnt{
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #A10035;
+    border: none;
+    border-radius: 5px;
+}
+.cnt:hover{
+    cursor: pointer;
+}
+.badge{
+    background-color:#A10035;
+    color:white;
+}
+.subPrice{
+margin-top: 25px;
+margin-left: auto;
+margin-right: 70px;
+   
+}
+/* .subPrice h4{
+    
+} */
+.bill{
+    /* display: flex; */
+  text-align:right;
+  margin-right: 210px;
+  padding-bottom: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}

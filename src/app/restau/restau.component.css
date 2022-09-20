@@ -1,0 +1,30 @@
+
+.restau h3{
+    
+    margin-top: 8em;
+    text-align: center ;
+}
+.restau img{
+    width: 360px;
+    height: 250px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+.res1{
+    margin-top: 40px;
+    margin-left: 35px;
+    /* background-color: rgb(226, 219, 211); */
+    padding-top: 30px;
+    /* margin-right: 860px; */
+    display: flex;
+    float: left;
+    transition: 0.3s ease-in-out;
+}
+.res1:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+} 
+
+a{
+    color: black;
+}

@@ -1,0 +1,38 @@
+.navRes{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.navRes input{
+    height: 40px;
+  width: 50%;
+  margin-left: 10%;
+  border-radius: 6px;
+  border-width: 1px;
+  
+}
+
+.f-order{
+    background-color:  rgb(245, 244, 244);
+    margin-top: 40px;
+}
+h3{
+    margin-left: 40px;
+}
+.c1{
+    display: flex;
+    float: left;
+    padding-left:3.7em;
+    padding-top: 30px;
+    background-color: rgb(245, 244, 244);
+    margin-top: -10px;
+    align-items: center;
+   
+    
+}
+
+.c1 img{
+    width: 150px;
+    border-radius: 50%;
+   
+}
